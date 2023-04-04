@@ -1,0 +1,131 @@
+:root{
+	
+	--whites:#f4f7ff;
+	--black:#808080;
+	--white:#aaaaac;
+	--gray:#d8dce4;
+    --red: #0e0e0e;
+
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier,;
+    font-size: 13px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(../images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.resume{
+	width: 800px;
+	height: 1000px;
+	margin: 100px auto;
+	background: var(--white);
+	box-shadow: 5px 21px 20px 20px #3d3f4238;
+}
+.profile-page{
+	background: var(--white);
+	width: 250px;
+	height: 1000px;
+	float: left;
+}
+.profile{
+	overflow: hidden;
+	position: relative;
+}
+.blue-box{
+    width: 257px;
+    height: 407px;
+    margin-left: -100px;
+    transform: rotateZ(48deg);
+    margin-top: -178px;
+    
+}
+.profile-img{
+	    position: absolute;
+    z-index: 9;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    border: 3px solid var(--gray);
+}
+.name{
+    color: var(--red);
+    text-align: center;
+    margin-top: -34px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ford{
+	width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7px;
+    
+    color: var(--red);
+    margin-top: 11px;
+    text-transform: uppercase;
+}
+.info{
+	margin-top: 50px;
+}
+.heading{
+	width: 180px;
+    margin: 0 auto;
+    padding: 2px;
+    
+   
+    color: var(--red);
+    margin-top: 11px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.p1{
+	color: var(--red);
+	width: 184px;
+	margin: 0 auto;
+	margin-top: 25px;
+	font-size: 15px;
+    line-height: 14px;
+}
+.p1 span{
+	font-size: 12px;
+}
+
+.right-section{
+	padding: 40px 30px;
+    background: var(--whites);
+    width: 68%;
+    float: left;
+    height: 1000px;
+}
+.timeline{
+    font-size: 28px;
+    
+}
+.content {
+    font-size: 30px;
+    color: #cfcccc;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    position: relative;
+}
